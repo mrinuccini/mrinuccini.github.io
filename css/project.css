@@ -22,7 +22,7 @@
 {
     text-align: center;
     padding: 20px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 1.25cm;
     color: var(--jordy-blue);
 }
@@ -70,7 +70,7 @@
 .projectDescText
 {
     font-size: 0.8cm;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
@@ -84,7 +84,7 @@
 {
     position: relative;
     font-size: 1cm;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     color: white;
     padding-left: 10px;
     transform: translateY(-75%);
@@ -94,14 +94,14 @@
 {
     position: relative;
     font-size: 0.5cm;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     color: var(--blue-jeans);
     padding-left: 10px;
 }
 
 .projectLangs
 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 0.5cm;
     color: var(--blue-jeans);
     position: relative;

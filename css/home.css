@@ -37,21 +37,21 @@ html
 {
     font-size: 0.65cm;
     color: var(--blue-jeans);
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito" ;
 }
 
 .name
 {
     font-size: 1.5cm;
     color: var(--jordy-blue);
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     display: inline;
 }
 
 .home_desc
 {
     font-size: 1.5cm;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     color: rgba(128, 193, 243, 0.75);
 }
 
@@ -59,7 +59,7 @@ html
 {
     line-height: 1;
     font-size: 0.5cm;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     color: rgba(128, 193, 243, 0.5);
 }
 
@@ -112,7 +112,7 @@ html
 {
     display: inline;
     margin-left: 50px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 0.5cm;
     color: white;
 
