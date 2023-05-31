@@ -1,0 +1,66 @@
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+.workDiv
+{
+    height: 80vh;
+    width: 100vw;
+    background-color: var(--deep-koamaru);
+}
+
+.workSeparator {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.workSeparator svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 66px;
+}
+
+.workSeparator .shape-fill {
+    fill: #F6F9FC;
+}
+
+@media screen and (max-width: 1080px) {
+    .workSeparator
+    {
+        transform: translateY(-5px);
+    }
+
+    .workDescText
+    {
+        font-size: 1.3cm;
+    }
+
+    .workDate
+    {
+        color: var(--deep-koamaru);
+        font-size: 1cm;
+    }
+
+    .workTitle
+    {
+        color: var(--blue-jeans);
+        font-size: 2cm;
+    }
+
+    .workLangs
+    {
+        color: var(--deep-koamaru);
+        font-size: 1.3cm;
+    }
+}

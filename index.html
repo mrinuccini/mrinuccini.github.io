@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/work.css">
+
+        <script src="js/main.js"></script>
+
+
+        <!-- Import Nunito font from google API -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>Matthias Rinuccini</title>
+    </head>
+
+    <body>
+        <div class="homeDiv" id="homeDiv">
+            <div class="navbar">
+                <div class="menu">
+                    <ul class="linkList">
+                        <li onclick="location.href = '#homeDiv';">Home</li>
+                        <li onclick="location.href = '#aboutDiv';">About</li>
+                        <li onclick="location.href = '#projectDiv';">Projects</li>
+                        <li onclick="location.href = '#skillDiv';">Skills</li>
+                        <li onclick="location.href = '#workDiv';">Experience</li>
+                        <li onclick="location.href = '#contactDiv';">Contacts</li>
+                    </ul>
+                </div>
+
+                <img class="navbarImg" src="assets/squidydev.png">
+            </div>
+
+            <!-- Will be added later
+            <div class="socialLinkInnerDiv">
+                <img alt="Github Logo" src="assets/Icons/GitHub.svg" class="socialHomeLink" onclick="location.href='https://github.com/mrinuccini/';">
+                <img alt="Instagram Logo" src="assets/Icons/Instagram_simple.png" class="socialHomeLink" onclick="location.href='https://www.instagram.com/mrinuccini/';">
+            </div>
+            -->
+
+            <div class="innerHomeDiv">
+                <p class="hi">Hi, my name is</p> 
+                <h1 class="name">Matthias Rinuccini.</h1>
+                <h1 class="home_desc">I'm a software engineer.</h1>
+                <p class="home_info">I'm a 15 years old french developper.<br>Actually in high school, I'm open to any opportunity.</p>
+                <br>
+                <br>
+                <button class="home_learnMoreButton" onclick="location.href='#aboutDiv';">Learn more</button>
+            </div>
+
+        </div>
+        <div class="aboutDiv" id="aboutDiv">
+            <h1 class="sectionHeader"> About me </h1>
+
+            <div class="aboutContentDiv">
+                <p class="about_desc">Hi, my name is Matthias and I'm a 15 years old french developper. <br> 
+                    I enjoy maths and computer science and like to mix them. <br> 
+                    I'm into software programming, machine learning and game developpement. <br> 
+                    Feel free to check my projects in the Project section.
+
+                    <br>
+                    <br>
+
+                    I'm still in High school where I study various subjects like maths, physics and more... <br>
+                    I learn computer science and programming on my free time.
+                </p>
+
+                <img class="aboutPicture" alt="This is me !" src="assets/squidydev.png">
+            </div>
+        </div>
+
+        <div class="projectDiv" id="projectDiv">
+            <div class="projectSeparator">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1 class="projectSectionHeader">My projects</h1>
+
+            <div class="projectContainer">
+                <div class="projectPreview">
+                    <a href="https://github.com/mrinuccini/Maze-Solver" target="_blank">
+                        <video autoplay loop muted id="previewVid">
+                            <source src="assets/videos/Maze Solver.mp4" type="video/mp4">
+                            Please update your browser to watch the video :).
+                        </video>
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="projectDate">2022 - Personnal Project</p>
+                    <p class="projectTitle">Maze Solver</p>
+                    <div class="projectDescDiv">
+                        <p class="projectDescText">This is a python app that can generate mazes and solve them. You can use different algorithm for generation and solving and also draw your own walls.</p>
+                    </div>
+                    <p class="projectLangs">Python Tkinter</p>
+                </div>
+            </div>
+
+            <div class="projectContainer test">
+                <div class="projectPreview">
+                    <a href="https://github.com/mrinuccini/Galaxy-Simulation" target="_blank">
+                        <video autoplay loop muted id="previewVid">
+                            <source src="assets/videos/Galaxy Simulator.mp4" type="video/mp4">
+                            Please update your browser to watch the video :).
+                        </video>
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="projectDate">2023 - Personnal Project</p>
+                    <p class="projectTitle">Galaxy Simulation</p>
+                    <div class="projectDescDiv">
+                        <p class="projectDescText">This is an N-body type of simulation made in Unity. It can simulate a single galaxy or two galaxies colliding. It uses GPU acceleration (compute shaders) for faster result.</p>
+                    </div>
+                    <p class="projectLangs">Unity C# HLSL</p>
+                </div>
+            </div>
+
+            <div class="projectContainer test1">
+                <div class="projectPreview">
+                    <a href="https://github.com/mrinuccini/2D-WFC" target="_blank">
+                        <video autoplay loop muted id="previewVid">
+                            <source src="assets/videos/WFC.mp4" type="video/mp4">
+                            Please update your browser to watch the video :).
+                        </video>
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="projectDate">2023 - Personnal Project</p>
+                    <p class="projectTitle">Wave Function Collapse</p>
+                    <div class="projectDescDiv">
+                        <p class="projectDescText" style="font-size: 0.8cm">This is a Unity implementation of the wave function collapse algorithm. It can generate procedural 2D or flat 3D map. You can also make it infinite. I have used it to create a procedural, infinite backrooms game</p>
+                    </div>
+                    <p class="projectLangs">Unity C#</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skillDiv" id="skillDiv">
+            <div class="skillSeparator">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1 class="skillSectionHeader"> My skills </h1>
+
+            <h2 class="skillTypeTitle">Software Developpement</h2>
+
+            <div class="skillContainer">
+                <div class="skill">
+                    <img alt="C# icon" src="assets/Skills/C_Sharp.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/C_Sharp_(programming_language)';">
+                    <p class="skillName">C#</p>
+                </div>
+
+                <div class="skill">
+                    <img alt="Python icon" src="assets/Skills/Python.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/Python_(programming_language)';">
+                    <p class="skillName">Python</p>
+                </div>
+
+                <div class="skill">
+                    <img alt="Git icon" src="assets/Skills/Git.svg" class="skillIcon" onclick="location.href='https://git-scm.com';">
+                    <p class="skillName">Git</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <h2 class="skillTypeTitle">Computer Graphics</h2>
+
+            <div class="skillContainer">
+                <div class="skill">
+                    <img alt="Unity icon" src="assets/Skills/Unity.svg" class="skillIcon" onclick="location.href='https://unity.com';">
+                    <p class="skillName">Unity</p>
+                </div>
+
+                <div class="skill">
+                    <img alt="Roblox Studio" src="assets/Skills/Roblox Studio.svg" class="skillIcon" onclick="location.href='https://www.roblox.com/create';">
+                    <p class="skillName">Roblox Studio</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <h2 class="skillTypeTitle">Front-End Web</h2>
+
+            <div class="skillContainer">
+                <div class="skill">
+                    <img alt="HTML Icon" src="assets/Skills/Html.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/HTML';">
+                    <p class="skillName">HTML</p>
+                </div>
+
+                <div class="skill">
+                    <img alt="CSS Icon" src="assets/Skills/Css.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/CSS';">
+                    <p class="skillName">CSS</p>
+                </div>
+
+                <div class="skill">
+                    <img alt="JS Icon" src="assets/Skills/JavaScript.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/JavaScript';">
+                    <p class="skillName">Javascript</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <h2 class="skillTypeTitle">Back-End Web</h2>
+
+            <div class="skillContainer">
+                <div class="skill">
+                    <img alt="SQL Icon" src="assets/Skills/Sql.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/SQL';">
+                    <p class="skillName">SQL</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="workDiv" id="workDiv">
+            <div class="workSeparator">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1 class="projectSectionHeader">Where I've worked</h1>
+
+            <div class="projectContainer">
+                <div class="projectPreview">
+                    <a href="https://eu.cwdsellier.com/gb/" target="_blank">
+                        <img id="previewVid" src="assets/Work/CWD.jpg">
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="projectDate workDate">2021 - Internship</p>
+                    <p class="projectTitle workTitle">CWD</p>
+                    <div class="projectDescDiv">
+                        <p class="projectDescText workDescText">I've done a one week internship at CWD, where I've created a file parsing program in Python and an other program to send data to the database using Python and SQL.</p>
+                    </div>
+                    <p class="projectLangs workLangs">Python SQL</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactDiv" id="contactDiv">
+            <div class="contactSeparator">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1 class="sectionHeader" style="color: #f6f9fc;"> Contacts </h1>
+
+            <div class="socialLine">
+                <div class="socialLink" onclick="location.href='https://github.com/mrinuccini/';">
+                    <img alt="Github Logo" src="assets/Icons/GitHub.svg" class="socialIcon">
+                    <p class="social_text">@mrinuccini</p>
+                </div>
+
+                <div class="socialLink" onclick="location.href='https://discord.gg/SmYeND2tVj';">
+                    <img alt="Discord Logo" src="assets/Icons/Discord.svg" class="socialIcon">
+                    <p class="social_text">Squidy</p>
+                </div>
+
+                <div class="socialLink" onclick="location.href='https://www.fiverr.com/mrinuccini';">
+                    <img alt="Discord Logo" src="assets/Icons/fiverr-icon.svg" class="socialIcon">
+                    <p class="social_text">mrinuccini</p>
+                </div>
+
+                <div class="socialLink1" onclick="location.href='mailto:matthias.rinuccini@gmail.com';">
+                    <img alt="Mail Logo" src="assets/Icons/Mail.svg" class="socialIcon">
+                    <p class="social_text" style="font-size: 0.6cm;">matthias.rinuccini@gmail.com</p>
+                </div>
+            </div>
+
+            <p class="bottomInfoText">© 2023 Matthias Rinuccini under Apache 2.0 License. See the repository on <a href="https://github.com/mrinuccini/mrinuccini.github.io">Github</a>. <br>Thanks for reading to the end 💖.</p>
+        </div>
+    </body>
+</html>

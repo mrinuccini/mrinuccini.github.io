@@ -1,0 +1,236 @@
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+html
+{
+    overflow-x: hidden;
+    background-color: var(--space-cadet);
+    scroll-behavior: smooth;
+}
+
+.homeDiv
+{
+    line-height: 0.75;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--space-cadet);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.innerHomeDiv
+{
+    width: 60vw;
+    height: 60vh;
+    background-color: var(--space-cadet);  
+}
+
+.hi
+{
+    font-size: 0.65cm;
+    color: var(--blue-jeans);
+    font-family: "Nunito", sans-serif;
+}
+
+.name
+{
+    font-size: 1.5cm;
+    color: var(--jordy-blue);
+    font-family: "Nunito", sans-serif;
+    display: inline;
+}
+
+.home_desc
+{
+    font-size: 1.5cm;
+    font-family: "Nunito", sans-serif;
+    color: rgba(128, 193, 243, 0.75);
+}
+
+.home_info
+{
+    line-height: 1;
+    font-size: 0.5cm;
+    font-family: "Nunito", sans-serif;
+    color: rgba(128, 193, 243, 0.5);
+}
+
+.home_learnMoreButton
+{
+    height: 60px;
+    width: 256px;
+
+    font-size: 0.75cm;
+    color: var(--blue-jeans);
+    background-color: var(--space-cadet);
+    border: 2px solid var(--blue-jeans);
+    border-radius: 5px;
+
+    transition: background-color 250ms linear;
+}
+
+.home_learnMoreButton:hover
+{
+    background-color: rgba(102, 173, 249, 0.25);
+
+    transition: background-color 250ms linear;
+}
+
+.navbar
+{
+    width: 100vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+}
+
+.menu 
+{
+    position: absolute;
+    height: 6vh;
+    width: 91vw;
+    right: 0;
+    display: block;
+}
+
+.linkList
+{
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.linkList li
+{
+    display: inline;
+    margin-left: 50px;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.5cm;
+    color: white;
+
+    transition: color 100ms linear;
+}
+
+.linkList li:hover
+{
+    color: var(--jordy-blue);
+
+    transition: color 100ms linear;
+}
+
+.navbarImg
+{
+    float: left;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.socialLinkInnerDiv
+{
+    position: absolute;
+    width: 3vw;
+    height: 30vh;
+    bottom: 0;
+    left: 0;
+}
+
+.socialHomeLink
+{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0.5vw;
+    width: 2vw;
+    height: 2vw;
+    bottom: -65%;
+}
+
+/* Everything here is to make it phone compatible */
+@media screen and (max-width: 1080px)
+{
+    .homeDiv
+    {
+        justify-content: left;
+    }
+
+    .innerHomeDiv
+    {
+        margin-top: 10vh;
+        margin-left: 20px;
+        width: 100vw;
+    }
+
+    .hi
+    {
+        margin-top: 20px;
+        font-size: 1cm;
+    }
+
+    .name
+    {
+        margin-top: 20px;
+        font-size: 2.3cm;
+    }
+
+    .home_desc
+    {
+        margin-top: 20px;
+        font-size: 2.3cm;
+    }
+
+    .home_info
+    {
+        margin-top: 20px;
+        font-size: 0.9cm;
+    }
+
+    .home_learnMoreButton
+    {
+        /*
+        right: 50%;
+        transform: translateX(50%);
+        */
+
+        margin-top: 20px;
+        width: 400px;
+        height: 70px;
+        font-size: 1.125cm;
+    }
+
+    .linkList li
+    {
+        border-radius: 50px;
+        margin-right: 0px;
+        margin-top: 10px;
+        font-size: 0.8cm;
+    }
+
+    .linkList
+    {
+        border-color: var(--jordy-blue);
+        border-width: 1cm;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100vw;
+    }
+
+    .menu
+    {
+        width: 100vw;
+    }
+
+    .navbarImg
+    {
+        transform: translateX(-500%);
+        /* transform: translateX(40vw); */
+    }
+}
