@@ -81,10 +81,10 @@
     {
         width: 50vw;
         height: 50vw;
-        float: right;
-        right: 50%;
+        float: left;
+        left: 50%;
         top: 15%;
-        transform: translateX(50%);
+        transform: translateX(-55%);
     }
 
     .aboutDiv

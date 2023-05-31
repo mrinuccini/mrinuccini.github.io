@@ -90,7 +90,7 @@
     color: var(--deep-koamaru);
     font-size: 0.5cm;
     text-align: center;
-    transform: translate(-5% ,-70%);
+    transform: translate(-5% ,-80%);
 }
 
 @media screen and (max-width: 1080px) {
@@ -112,7 +112,7 @@
 
     .skillTypeTitle
     {
-        transform: translateY(-115vh);
+        transform: translateY(-165vh);
         position: relative;
         font-size: 1.5cm;
     }
@@ -131,7 +131,7 @@
     .skillContainer
     {
         width: 95vw;
-        transform: translateY(-115vh);
+        transform: translateY(-165vh);
         position: relative;
         right: 0;
         left: 0;
