@@ -13,7 +13,7 @@
 .projectDiv
 {
     width: 100vw;
-    height: 180vh;
+    height: 230vh;
     background-color: var(--deep-koamaru);
 }
 
@@ -23,7 +23,7 @@
     text-align: center;
     padding: 20px;
     font-family: "Nunito";
-    font-size: 2cm;
+    font-size: 1.7cm;
     color: var(--jordy-blue);
 }
 
@@ -229,9 +229,14 @@
         transform: translateY(-94vh);
     }
 
+    .test2
+    {
+        transform: translateY(-140vh);
+    }
+
     .projectDiv
     {
-        height: 190vh;
+        height: 240vh;
     }
 
     #previewVid
@@ -247,6 +252,11 @@
         top:0;
         right:0;
         border-radius: 5%;
+    }
+
+    .projectLinkActions
+    {
+        width: 20vw;
     }
 }
 
