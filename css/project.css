@@ -110,6 +110,23 @@
     word-spacing: 10px;
 }
 
+.projectLinkActions
+{
+    position: relative;
+    bottom: -30%;
+    margin-left: 10px;
+    width: 10vw;
+    height: 3vh;
+}
+
+.projectLinkAction
+{
+    margin-left: 10px;
+    transform: translateX(-10px);
+    height: 3vh;
+    width: 3vh;
+}
+
 #previewVid
 {
     width: 35vw;
@@ -216,6 +233,21 @@
     {
         height: 190vh;
     }
+
+    #previewVid
+    {
+        transform: translateX(-1000vh);
+    }
+
+    .projectPreviewImg
+    {
+        height: 50vh;
+        width: 75vw;
+        position: absolute;
+        top:0;
+        right:0;
+        border-radius: 5%;
+    }
 }
 
 @media screen and (min-width: 1081px)
@@ -224,5 +256,15 @@
     {      
         background-color: var(--ucla-blue);
         transform: translate(-10%, -50%);
-    }   
+    }
+
+    .projectPreviewImg
+    {
+        transform: translateX(-1000vw);
+    }
+
+    .big
+    {
+        font-size: 0.8cm;
+    }
 }
