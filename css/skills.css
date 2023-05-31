@@ -11,7 +11,7 @@
 .skillDiv
 {
     width: 100vw;
-    height: 170vh;
+    height: 200vh;
     background-color: #f6f9fc;
 }
 
@@ -122,6 +122,12 @@
         position: relative;
     }
 
+    .smallSkillIcon
+    {
+        width: 20vw;
+        height: 20vw;
+    }
+
     .skillContainer
     {
         width: 95vw;
@@ -140,6 +146,6 @@
 
     .skillDiv
     {
-        height: 130vh;
+        height: 170vh;
     }
 }

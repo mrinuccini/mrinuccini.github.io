@@ -103,12 +103,6 @@
     transition: width 0.5s ease-in-out;
 }
 
-.socialLink1:hover
-{
-    width: 50vh;
-    transition: width 0.5s ease-in-out;
-}
-
 .bottomInfoText
 {
     position: relative;
@@ -165,5 +159,13 @@
     .social_text
     {
         color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 1081px) {
+    .socialLink:hover
+    {
+        width: 30vh;
+        transition: width 0.5s ease-in-out;
     }
 }
