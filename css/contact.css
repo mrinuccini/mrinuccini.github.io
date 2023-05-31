@@ -84,7 +84,7 @@
 {
     position: relative;
     text-align: center;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 0.75cm;
     color: var(--space-cadet);
     vertical-align: middle;
@@ -107,7 +107,7 @@
 {
     position: relative;
     color: #f6f9fc;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 0.5cm;
     text-align: center;
 }
@@ -115,6 +115,12 @@
 .bottomInfoText a
 {
     color: var(--jordy-blue);
+}
+
+.socialLink:hover
+{
+    width: 30vh;
+    transition: width 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1080px) {
@@ -159,13 +165,5 @@
     .social_text
     {
         color: rgba(0, 0, 0, 0);
-    }
-}
-
-@media screen and (min-width: 1081px) {
-    .socialLink:hover
-    {
-        width: 30vh;
-        transition: width 0.5s ease-in-out;
     }
 }

@@ -19,7 +19,7 @@
 {
     text-align: center;
     padding: 20px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 1.25cm;
     color: var(--deep-koamaru);
 }
@@ -50,7 +50,7 @@
 {
     text-align: center;
     padding: 20px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-size: 0.75cm;
     color: var(--blue-jeans);
 }
