@@ -11,7 +11,7 @@
 .skillDiv
 {
     width: 100vw;
-    height: 200vh;
+    height: 210vh;
     background-color: #f6f9fc;
 }
 
@@ -20,7 +20,7 @@
     text-align: center;
     padding: 20px;
     font-family: "Nunito";
-    font-size: 1.25cm;
+    font-size: 1.7cm;
     color: var(--deep-koamaru);
 }
 
