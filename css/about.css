@@ -1,0 +1,94 @@
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+.aboutDiv
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 78vh;
+    background-color: var(--jordy-blue);
+}
+
+.sectionHeader
+{
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25cm;
+    color: var(--deep-koamaru);
+}
+
+.aboutContentDiv
+{
+    margin: auto;
+    height: 55vh;
+    width: 75vw;
+    background-color: var(--jordy-blue);
+    transform: translateY(-10%);
+}
+
+.aboutPicture
+{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    float: right;
+}
+
+.about_desc
+{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-60%);
+    float: left;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.6cm;
+    color: var(--deep-koamaru);
+}
+
+@media screen and (max-width: 1080px)
+{
+    .sectionHeader
+    {
+        font-size: 2cm;
+    }
+
+    .aboutContentDiv
+    {
+        transform: translateX(5%);
+    }
+
+    .about_desc
+    {
+        font-size: 1cm;
+    }
+
+    .aboutPicture
+    {
+        width: 50vw;
+        height: 50vw;
+        float: right;
+        right: 50%;
+        top: 15%;
+        transform: translateX(50%);
+    }
+
+    .aboutDiv
+    {
+        height: 100vh;
+    }
+}

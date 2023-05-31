@@ -1,0 +1,145 @@
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+.skillDiv
+{
+    width: 100vw;
+    height: 170vh;
+    background-color: #f6f9fc;
+}
+
+.skillSectionHeader
+{
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25cm;
+    color: var(--deep-koamaru);
+}
+
+.skillSeparator {
+    transform: translateX(-1px);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.skillSeparator svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+    transform: rotateY(180deg);
+}
+
+.skillSeparator .shape-fill {
+    fill: #2C3157;
+}
+
+.skillTypeTitle
+{
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.75cm;
+    color: var(--blue-jeans);
+}
+
+.skillContainer
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    width: 70vw;
+    height: 18vh;
+    background-color: #f6f9fc;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skillIcon
+{
+    position: relative;
+    width: 13vh;
+    height: 13vh;
+    margin-top: 1.5vh;
+}
+
+.skill
+{
+    margin-left: 20px;
+    width: 15vh;
+    height: 18vh;
+}
+
+.skillName
+{
+    font-family: "Nunito", sans-serif;
+    color: var(--deep-koamaru);
+    font-size: 0.5cm;
+    text-align: center;
+    transform: translate(-5% ,-70%);
+}
+
+@media screen and (max-width: 1080px) {
+    .skillSeparator
+    {
+        position: absolute;
+        transform: translate(-2px, -5px);
+    }
+
+    .skillSectionHeader
+    {
+        font-size: 2cm;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        position: absolute;
+    }
+
+    .skillTypeTitle
+    {
+        transform: translateY(-115vh);
+        position: relative;
+        font-size: 1.5cm;
+    }
+
+    .skillDiv
+    {
+        position: relative;
+    }
+
+    .skillContainer
+    {
+        width: 95vw;
+        transform: translateY(-115vh);
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skillName
+    {
+        font-size: 0.75cm;
+    }
+
+    .skillDiv
+    {
+        height: 130vh;
+    }
+}

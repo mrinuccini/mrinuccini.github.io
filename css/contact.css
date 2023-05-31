@@ -1,0 +1,169 @@
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+.contactDiv
+{
+    height: 60vh;
+    width: 100vw;
+    background-color: var(--ucla-blue);
+}
+
+.contactSeparator {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.contactSeparator svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+}
+
+.contactSeparator .shape-fill {
+    fill: var(--deep-koamaru);
+    /**/
+}
+
+.socialLine
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 18vh;
+    background-color: var(--ucla-blue);
+}
+
+.socialLink
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f6f9fc;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 10vh;
+    height: 10vh;
+    transition: width 0.5s ease-in-out;
+}
+
+.socialLink:hover
+{
+    width: 30vh;
+    transition: width 0.5s ease-in-out;
+}
+
+.socialIcon
+{
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.5vh;
+    width: 9vh;
+    height: 9vh;
+}
+
+.social_text
+{
+    position: relative;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.75cm;
+    color: var(--space-cadet);
+    vertical-align: middle;
+}
+
+.socialLink1
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f6f9fc;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 10vh;
+    height: 10vh;
+    transition: width 0.5s ease-in-out;
+}
+
+.socialLink1:hover
+{
+    width: 50vh;
+    transition: width 0.5s ease-in-out;
+}
+
+.bottomInfoText
+{
+    position: relative;
+    color: #f6f9fc;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.5cm;
+    text-align: center;
+}
+
+.bottomInfoText a
+{
+    color: var(--jordy-blue);
+}
+
+@media screen and (max-width: 1080px) {
+    .contactDiv
+    {
+        height: 40vh;
+        position: absolute;
+    }
+
+    .bottomInfoText
+    {
+        position: absolute;
+        font-size: 1cm;
+        bottom: 0;
+    }
+
+    .socialIcon
+    {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        width: 7vh;
+        height: 7vh;
+    }
+
+    .socialLink
+    {
+        transform: translateY(-2.5vh);
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .socialLink1
+    {
+        transform: translateY(-2.5vh);
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .social_text
+    {
+        color: rgba(0, 0, 0, 0);
+    }
+}

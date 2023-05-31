@@ -1,0 +1,228 @@
+/* TODO : Figure out issues with test and test1 */
+
+:root
+{
+    --blue-jeans: #66adf9;
+    --jordy-blue: #80c1f3;
+    --space-cadet: #1c2c4c;
+    --ucla-blue: #54699e;
+    --silver-lake-blue: #668ebc;
+    --deep-koamaru: #2c3157;
+}
+
+.projectDiv
+{
+    width: 100vw;
+    height: 180vh;
+    background-color: var(--deep-koamaru);
+}
+
+
+.projectSectionHeader
+{
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25cm;
+    color: var(--jordy-blue);
+}
+
+.projectContainer
+{
+    height: 50vh;
+    width: 75vw;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectPreview
+{
+    transform: translateY(12.5%);
+    height: 40vh;
+    width: 35vw;
+    float: left;
+    border-radius: 5%;
+    /* background-color: var(--silver-lake-blue); */
+}
+
+.projectText
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40vh;
+    width: 40vw;
+    float: right;
+    border-radius: 5%;
+}
+
+.projectDescDiv
+{
+    position: absolute;
+    top: 50%;
+    height: 20vh;
+    width: 40vw;
+    float: right;
+    border-radius: 5%;
+}
+
+.projectDescText
+{
+    font-size: 0.8cm;
+    font-family: "Nunito", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--space-cadet);
+}
+
+.projectTitle
+{
+    position: relative;
+    font-size: 1cm;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    padding-left: 10px;
+    transform: translateY(-75%);
+}
+
+.projectDate
+{
+    position: relative;
+    font-size: 0.5cm;
+    font-family: "Nunito", sans-serif;
+    color: var(--blue-jeans);
+    padding-left: 10px;
+}
+
+.projectLangs
+{
+    font-family: "Nunito", sans-serif;
+    font-size: 0.5cm;
+    color: var(--blue-jeans);
+    position: relative;
+    bottom: -33%;
+    padding-left: 10px;
+    word-spacing: 10px;
+}
+
+#previewVid
+{
+    width: 35vw;
+    height: 40vh;
+    border-radius: 5%;
+}
+
+.projectSeparator {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.projectSeparator svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+}
+
+.projectSeparator .shape-fill {
+    fill: #80C1F3;
+}
+
+@media screen and (max-width: 1080px)
+{
+    .projectContainer
+    {
+        margin-top: 0vh;
+    }
+
+    .projectSectionHeader
+    {
+        font-size: 2cm;
+    }
+
+    .projectPreview
+    {
+        height: 50vh;
+        width: 75vw;
+    }
+
+    #previewVid
+    {
+        height: 50vh;
+        width: 75vw;
+    }
+
+    .projectDescDiv
+    {
+        height: 25vh;
+        width: 75vw;
+        top: 50%;
+        transform: translateY(-50%);
+        float: left;
+    }
+
+    .projectText
+    {
+        height: 50vh;
+        width: 75vw;
+        top: 0%;
+        transform: translateY(-87.5%);
+        background-color: rgba(84, 105, 158, 0.5);
+    }
+
+    .projectDate
+    {
+        margin-top: 3vh;
+        font-size: 0.875cm;
+    }
+
+    .projectTitle
+    {
+        margin-top: 6vh;
+        font-size: 1.75cm;
+    }
+
+    .projectDescText
+    {
+        font-size: 1.25cm;
+        color: #f6f9fc;
+    }
+
+    .projectLangs
+    {
+        font-size: 0.875cm;
+    }
+
+    .test
+    {
+        transform: translateY(-47vh);
+    }
+
+    .test1
+    {
+        transform: translateY(-94vh);
+    }
+
+    .projectDiv
+    {
+        height: 190vh;
+    }
+}
+
+@media screen and (min-width: 1081px)
+{
+    .projectDescDiv
+    {      
+        background-color: var(--ucla-blue);
+        transform: translate(-10%, -50%);
+    }   
+}
