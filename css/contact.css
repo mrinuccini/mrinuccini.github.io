@@ -103,6 +103,12 @@
     transition: width 0.5s ease-in-out;
 }
 
+.socialLink1:hover
+{
+    width: 50vh;
+    transition: width 0.5s ease-in-out;
+}
+
 .bottomInfoText
 {
     position: relative;
