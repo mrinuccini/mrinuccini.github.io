@@ -10,7 +10,7 @@
 
 .workDiv
 {
-    height: 130vh;
+    height: 150vh;
     width: 100vw;
     background-color: var(--deep-koamaru);
 }
@@ -33,6 +33,10 @@
 
 .workSeparator .shape-fill {
     fill: #F6F9FC;
+}
+
+.workSeparator {
+    transform: translateY(-10px);
 }
 
 @media screen and (max-width: 1080px) {
@@ -62,5 +66,10 @@
     {
         color: var(--deep-koamaru);
         font-size: 1.3cm;
+    }
+
+    .workDiv
+    {
+        height: 120vh;
     }
 }

@@ -28,9 +28,9 @@ html
 
 .innerHomeDiv
 {
+    position: absolute;
     width: 60vw;
     height: 60vh;
-    background-color: var(--space-cadet);  
 }
 
 .hi
@@ -70,7 +70,7 @@ html
 
     font-size: 0.75cm;
     color: var(--blue-jeans);
-    background-color: var(--space-cadet);
+    background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid var(--blue-jeans);
     border-radius: 5px;
 
@@ -135,6 +135,47 @@ html
     margin-top: 5px;
 }
 
+.navbar_button
+{
+    height: 30px;
+    width: 128px;
+
+    font-size: 0.5cm;
+    color: var(--blue-jeans);
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--blue-jeans);
+    border-radius: 5px;
+    text-align: center;    
+    padding-right: 0;
+    padding-left: 0;
+
+
+    transition: all 250ms linear;
+}
+
+.navbar_button:hover
+{
+    background-color: rgba(102, 173, 249, 0.25);
+
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: -10px;
+}
+
+.navbar_button:after
+{
+  content: '→';
+  position: relative;
+  opacity: 0;  
+  right: -10px;
+  top: -1px;
+  transition: 0.5s;
+}
+
 .socialLinkInnerDiv
 {
     position: absolute;
@@ -195,11 +236,6 @@ html
 
     .home_learnMoreButton
     {
-        /*
-        right: 50%;
-        transform: translateX(50%);
-        */
-
         margin-top: 20px;
         width: 400px;
         height: 70px;
@@ -231,6 +267,5 @@ html
     .navbarImg
     {
         transform: translateX(-500%);
-        /* transform: translateX(40vw); */
     }
 }

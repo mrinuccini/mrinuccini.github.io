@@ -11,47 +11,23 @@
 .skillDiv
 {
     width: 100vw;
-    height: 210vh;
+    height: 185vh;
     background-color: #f6f9fc;
 }
 
 .skillSectionHeader
 {
     text-align: center;
-    padding: 20px;
     font-family: "Nunito";
     font-size: 1.7cm;
     color: var(--deep-koamaru);
 }
 
-.skillSeparator {
-    transform: translateX(-1px);
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.skillSeparator svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 90px;
-    transform: rotateY(180deg);
-}
-
-.skillSeparator .shape-fill {
-    fill: #2C3157;
-}
-
 .skillTypeTitle
 {
     text-align: center;
-    padding: 20px;
     font-family: "Nunito";
-    font-size: 0.75cm;
+    font-size: 2.25vw;
     color: var(--blue-jeans);
 }
 
@@ -75,6 +51,16 @@
     width: 13vh;
     height: 13vh;
     margin-top: 1.5vh;
+
+    transition: all 250ms linear;
+}
+
+.skillIcon:hover
+{
+    width: 13.2vh;
+    height: 13.2vh;
+    
+    transition: all 250ms linear;
 }
 
 .skill
@@ -88,18 +74,12 @@
 {
     font-family: "Nunito";
     color: var(--deep-koamaru);
-    font-size: 0.5cm;
+    font-size: 1vw;
     text-align: center;
     transform: translate(-5% ,-80%);
 }
 
 @media screen and (max-width: 1080px) {
-    .skillSeparator
-    {
-        position: absolute;
-        transform: translate(-2px, -5px);
-    }
-
     .skillSectionHeader
     {
         font-size: 2cm;
@@ -115,11 +95,6 @@
         transform: translateY(-165vh);
         position: relative;
         font-size: 1.5cm;
-    }
-
-    .skillDiv
-    {
-        position: relative;
     }
 
     .smallSkillIcon
@@ -146,6 +121,6 @@
 
     .skillDiv
     {
-        height: 180vh;
+        height: 150vh;
     }
 }

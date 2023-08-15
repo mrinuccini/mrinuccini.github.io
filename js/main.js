@@ -3,5 +3,5 @@ var screenWidth = window.screen.availWidth;
 
 if(screenWidth <= 1080)
 {
-    alert("The mobile version of this website is still in dev. Weird visuals and bugs warning !");
+    alert("The mobile version of the website isn't fully complete. Please note that bugs and weird visuals will be patched.");
 }

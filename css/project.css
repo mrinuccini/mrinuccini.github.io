@@ -13,7 +13,7 @@
 .projectDiv
 {
     width: 100vw;
-    height: 230vh;
+    height: 250vh;
     background-color: var(--deep-koamaru);
 }
 
@@ -21,7 +21,6 @@
 .projectSectionHeader
 {
     text-align: center;
-    padding: 20px;
     font-family: "Nunito";
     font-size: 1.7cm;
     color: var(--jordy-blue);
@@ -43,7 +42,6 @@
     width: 35vw;
     float: left;
     border-radius: 5%;
-    /* background-color: var(--silver-lake-blue); */
 }
 
 .projectText
@@ -54,7 +52,6 @@
     height: 40vh;
     width: 40vw;
     float: right;
-    border-radius: 5%;
 }
 
 .projectDescDiv
@@ -64,12 +61,12 @@
     height: 20vh;
     width: 40vw;
     float: right;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .projectDescText
 {
-    font-size: 0.8cm;
+    font-size: 1.7vw;
     font-family: "Nunito";
     padding-left: 10px;
     padding-right: 10px;
@@ -82,39 +79,41 @@
 
 .projectTitle
 {
-    position: relative;
-    font-size: 1cm;
+    position: absolute;
+    font-size: 3vw;
     font-family: "Nunito";
     color: white;
-    padding-left: 10px;
-    transform: translateY(-75%);
+    padding-left: 5px;
+    transform: translateY(-3.4vh);
+    top: 0;
 }
 
 .projectDate
 {
-    position: relative;
-    font-size: 0.5cm;
+    position: absolute;
+    font-size: 1.5vw;
     font-family: "Nunito";
     color: var(--blue-jeans);
-    padding-left: 10px;
+    padding-left: 5px;
+    transform: translateY(-3.8vh);
 }
 
 .projectLangs
 {
     font-family: "Nunito";
-    font-size: 0.5cm;
+    font-size: 1.5vw;
     color: var(--blue-jeans);
-    position: relative;
-    bottom: -33%;
-    padding-left: 10px;
+    position: absolute;
+    bottom: 1.25vw;
+    padding-left: 5px;
     word-spacing: 10px;
 }
 
 .projectLinkActions
 {
-    position: relative;
-    bottom: -30%;
-    margin-left: 10px;
+    position: absolute;
+    bottom: 0.5vw;
+    margin-left: 5px;
     width: 10vw;
     height: 3vh;
 }
@@ -136,7 +135,7 @@
 
 .projectSeparator {
     position: relative;
-    top: 0;
+    top: -3px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -192,20 +191,23 @@
         height: 50vh;
         width: 75vw;
         top: 0%;
+        border-radius: 5%;
         transform: translateY(-87.5%);
-        background-color: rgba(84, 105, 158, 0.5);
+        background-color: rgba(84, 105, 158, 0.8);
     }
 
     .projectDate
     {
+	    position: relative;
+        transform: translateY(-2vh);
         margin-top: 3vh;
-        font-size: 0.875cm;
+        font-size: 4vw;
     }
 
     .projectTitle
     {
-        margin-top: 6vh;
-        font-size: 1.75cm;
+        margin-top: 8vh;
+        font-size: 8vw;
     }
 
     .projectDescText
@@ -216,7 +218,8 @@
 
     .projectLangs
     {
-        font-size: 0.875cm;
+        font-size: 4vw;
+        bottom: 5vh;
     }
 
     .test
@@ -257,6 +260,7 @@
     .projectLinkActions
     {
         width: 20vw;
+        bottom: 3vh;
     }
 }
 
@@ -271,10 +275,5 @@
     .projectPreviewImg
     {
         transform: translateX(-1000vw);
-    }
-
-    .big
-    {
-        font-size: 0.8cm;
     }
 }

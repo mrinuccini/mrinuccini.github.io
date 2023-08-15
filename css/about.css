@@ -30,7 +30,7 @@
 {
     margin: auto;
     height: 55vh;
-    width: 75vw;
+    width: 90vw;
     background-color: var(--jordy-blue);
     transform: translateY(-10%);
 }
@@ -56,7 +56,7 @@
     transform: translateY(-60%);
     float: left;
     font-family: "Nunito";
-    font-size: 0.6cm;
+    font-size: 1.7vw;
     color: var(--deep-koamaru);
 }
 
@@ -70,6 +70,7 @@
     .aboutContentDiv
     {
         transform: translateX(5%);
+	    width: 75vw;
     }
 
     .about_desc
