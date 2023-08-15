@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
     <head>
         <link rel="stylesheet" href="css/home.css">
+	    <link rel="stylesheet" href="css/background.css">
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/project.css">
         <link rel="stylesheet" href="css/skills.css">
@@ -24,6 +25,29 @@
     </head>
 
     <body>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <div class="homeDiv" id="homeDiv">
             <div class="navbar">
                 <div class="menu">
@@ -33,11 +57,14 @@
                         <li onclick="location.href = '#projectDiv';">Projects</li>
                         <li onclick="location.href = '#skillDiv';">Skills</li>
                         <li onclick="location.href = '#workDiv';">Experience</li>
-                        <li onclick="location.href = '#contactDiv';">Contacts</li>
+
+                        <li></li>
+
+                        <button class="navbar_button" onclick="location.href='#contactDiv';">Contacts</button>
                     </ul>
                 </div>
 
-                <img class="navbarImg" src="assets/squidydev.png">
+                <img class="navbarImg" src="assets/squidydev.jpeg">
             </div>
 
             <!-- Will be added later
@@ -51,18 +78,17 @@
                 <p class="hi">Hi, my name is</p> 
                 <h1 class="name">Matthias Rinuccini.</h1>
                 <h1 class="home_desc">I'm a software engineer.</h1>
-                <p class="home_info">I'm a 15 years old french developper.<br>Actually in high school, I'm open to any opportunity.</p>
+                <p class="home_info">I'm a 16 years old french developper.<br>Currently in high school, I'm open to any opportunity.</p>
                 <br>
                 <br>
                 <button class="home_learnMoreButton" onclick="location.href='#aboutDiv';">Learn more</button>
             </div>
-
         </div>
         <div class="aboutDiv" id="aboutDiv">
             <h1 class="sectionHeader"> About me </h1>
 
             <div class="aboutContentDiv">
-                <p class="about_desc">Hi, my name is Matthias and I'm a 15 years old french developper. <br> 
+                <p class="about_desc">Hi, my name is Matthias and I'm a 16 years old french developper. <br> 
                     I enjoy maths and computer science and like to mix them. <br> 
                     I'm into software programming, machine learning and game developpement. <br> 
                     Feel free to check my projects in the Project section.
@@ -74,7 +100,7 @@
                     I learn computer science and programming on my free time.
                 </p>
 
-                <img class="aboutPicture" alt="This is me !" src="assets/squidydev.png">
+                <img class="aboutPicture" alt="This is me !" src="assets/squidydev.jpeg">
             </div>
         </div>
 
@@ -148,9 +174,9 @@
                 </div>
                 <div class="projectText">
                     <p class="projectDate">2023 - Personnal Project</p>
-                    <p class="projectTitle">Wave Function Collapse</p>
+                    <p class="projectTitle">WFC</p>
                     <div class="projectDescDiv">
-                        <p class="projectDescText big">This is a Unity implementation of the wave function collapse algorithm. It can generate procedural infinite 2D or flat 3D map I have used it to create a procedural, infinite backrooms game</p>
+                        <p class="projectDescText">This is a Unity implementation of the wave function collapse algorithm. It can generate procedural infinite 2D or flat 3D map I have used it to create a procedural, infinite backrooms game</p>
                     </div>
 
                     <p class="projectLangs">Unity C#</p>
@@ -171,7 +197,7 @@
                     <p class="projectDate">2023 - School Project</p>
                     <p class="projectTitle">Weather Website</p>
                     <div class="projectDescDiv">
-                        <p class="projectDescText big">This is a weather website made for a school project. It uses openweatherapi to gather realtime weather data. /!\ The website is in french and not mobile compatible.</p>
+                        <p class="projectDescText">This is a weather website made for a school project. It uses openweatherapi to gather realtime weather data. /!\ The website is in french and not mobile compatible.</p>
                     </div>
 
                     <p class="projectLangs">HTML CSS JS</p>
@@ -182,13 +208,8 @@
                 </div>
             </div>
         </div>
-        <div class="skillDiv" id="skillDiv">
-            <div class="skillSeparator">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
-            </div>
 
+        <div class="skillDiv" id="skillDiv">
             <h1 class="skillSectionHeader"> My skills </h1>
 
             <h2 class="skillTypeTitle">Software Developpement</h2>
@@ -210,9 +231,6 @@
                 </div>
             </div>
 
-            <br>
-            <br>
-
             <h2 class="skillTypeTitle">Computer Graphics</h2>
 
             <div class="skillContainer">
@@ -226,9 +244,6 @@
                     <p class="skillName">Roblox Studio</p>
                 </div>
             </div>
-
-            <br>
-            <br>
 
             <h2 class="skillTypeTitle">Front-End Web</h2>
 
@@ -249,9 +264,6 @@
                 </div>
             </div>
 
-            <br>
-            <br>
-
             <h2 class="skillTypeTitle">Back-End Web</h2>
 
             <div class="skillContainer">
@@ -260,9 +272,6 @@
                     <p class="skillName">SQL</p>
                 </div>
             </div>
-
-            <br>
-            <br>
 
             <h2 class="skillTypeTitle">Spoken Languages</h2>
 
@@ -290,45 +299,52 @@
         </div>
 
         <div class="workDiv" id="workDiv">
-            <div class="workSeparator">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-            <h1 class="projectSectionHeader">Where I've worked</h1>
-
-            <div class="projectContainer">
-                <div class="projectPreview">
-                    <a href="https://eu.cwdsellier.com/gb/" target="_blank">
-                        <img id="previewVid" src="assets/Work/CWD.jpg">
-                        <img class="projectPreviewImg" src="assets/Work/CWD - Mobile.png" alt="CWD Logo">
-                    </a>
+            <div class="workDivContent">
+                <div class="workSeparator">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
                 </div>
-                <div class="projectText">
-                    <p class="projectDate workDate">2021 - Internship</p>
-                    <p class="projectTitle workTitle">CWD</p>
-                    <div class="projectDescDiv">
-                        <p class="projectDescText workDescText">I've done a one week internship at CWD, where I've created a file parsing program in Python and an other program to send data to the database using Python and SQL.</p>
+
+                <h1 class="skillSectionHeader" style="color: #66adf9;">Where I've worked</h1>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="projectContainer">
+                    <div class="projectPreview">
+                        <a href="https://eu.cwdsellier.com/gb/" target="_blank">
+                            <img id="previewVid" src="assets/Work/CWD.jpg">
+                            <img class="projectPreviewImg" src="assets/Work/CWD - Mobile.png" alt="CWD Logo">
+                        </a>
                     </div>
-                    <p class="projectLangs workLangs">Python SQL</p>
-                </div>
-            </div>
-
-            <div class="projectContainer test">
-                <div class="projectPreview">
-                    <a href="https://training.arioneo.com/fr/accueil/" target="_blank">
-                        <img id="previewVid" src="assets/Work/Arioneo.png">
-                        <img class="projectPreviewImg" src="assets/Work/Arioneo - Mobile.png" alt="Arioneo Logo">
-                    </a>
-                </div>
-                <div class="projectText">
-                    <p class="projectDate workDate">2023 - Internship</p>
-                    <p class="projectTitle workTitle">Arioneo</p>
-                    <div class="projectDescDiv">
-                        <p class="projectDescText workDescText">I've done a two weeks internship at Arioneo. There I've build a graph labelling tool using Python, Dash, Plotly and Pandas. You can see the code of this tool <a href="https://github.com/mrinuccini/Graph-Labelling-Tool" style="color: #80c1f3;">here</a></p>
+                    <div class="projectText">
+                        <p class="projectDate workDate">2021 - Internship</p>
+                        <p class="projectTitle workTitle">CWD</p>
+                        <div class="projectDescDiv">
+                            <p class="projectDescText workDescText">I've done a one week internship at CWD, where I've created a file parsing program in Python and an other program to send data to the database using Python and SQL.</p>
+                        </div>
+                        <p class="projectLangs workLangs">Python SQL</p>
                     </div>
-                    <p class="projectLangs workLangs">Python Dash</p>
+                </div>
+
+                <div class="projectContainer test">
+                    <div class="projectPreview">
+                        <a href="https://training.arioneo.com/fr/accueil/" target="_blank">
+                            <img id="previewVid" src="assets/Work/Arioneo.png">
+                            <img class="projectPreviewImg" src="assets/Work/Arioneo - Mobile.png" alt="Arioneo Logo">
+                        </a>
+                    </div>
+                    <div class="projectText">
+                        <p class="projectDate workDate">2023 - Internship</p>
+                        <p class="projectTitle workTitle">Arioneo</p>
+                        <div class="projectDescDiv">
+                            <p class="projectDescText workDescText">I've done a two weeks internship at Arioneo. There I've build a graph labelling tool using Python, Dash, Plotly and Pandas. You can see the code of this tool <a href="https://github.com/mrinuccini/Graph-Labelling-Tool" style="color: #80c1f3;">here</a></p>
+                        </div>
+                        <p class="projectLangs workLangs">Python Dash</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -340,7 +356,7 @@
                 </svg>
             </div>
 
-            <h1 class="sectionHeader" style="color: #f6f9fc;"> Contacts </h1>
+            <h1 class="sectionHeader" style="color: #2c3157;"> Contacts </h1>
 
             <div class="socialLine">
                 <div class="socialLink" onclick="location.href='https://github.com/mrinuccini/';">
@@ -353,7 +369,7 @@
                     <p class="social_text">Squidy</p>
                 </div>
 
-                <div class="socialLink" onclick="location.href='https://www.fiverr.com/mrinuccini';">
+                <div class="socialLink" onclick="location.href='https://www.fiverr.com/matthias_rinu';">
                     <img alt="Fiverr Logo" src="assets/Icons/fiverr-icon.svg" class="socialIcon">
                     <p class="social_text">matthias_rinu</p>
                 </div>
@@ -365,6 +381,7 @@
             </div>
 
             <p class="bottomInfoText">© 2023 Matthias Rinuccini under Apache 2.0 License. See the repository on <a href="https://github.com/mrinuccini/mrinuccini.github.io">Github</a>. <br>Thanks for reading to the end 💖.</p>
+            <p class="versionText" style="transform: translate(20px);">Version dv2mb2</p>
         </div>
     </body>
 </html>

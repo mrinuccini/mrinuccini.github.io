@@ -10,9 +10,9 @@
 
 .contactDiv
 {
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
-    background-color: var(--ucla-blue);
+    background-color: #f6f9fc;
 }
 
 .contactSeparator {
@@ -33,7 +33,6 @@
 
 .contactSeparator .shape-fill {
     fill: var(--deep-koamaru);
-    /**/
 }
 
 .socialLine
@@ -45,7 +44,6 @@
     transform: translateX(-50%);
     width: 70vw;
     height: 18vh;
-    background-color: var(--ucla-blue);
 }
 
 .socialLink
@@ -56,8 +54,8 @@
     border-radius: 10px;
     background-color: #f6f9fc;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
-    width: 10vh;
-    height: 10vh;
+    width: 6vw;
+    height: 6vw;
     transition: width 0.5s ease-in-out;
 }
 
@@ -76,8 +74,8 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 0.5vh;
-    width: 9vh;
-    height: 9vh;
+    width: 5vw;
+    height: 5vw;
 }
 
 .social_text
@@ -85,9 +83,10 @@
     position: relative;
     text-align: center;
     font-family: "Nunito";
-    font-size: 0.75cm;
-    color: var(--space-cadet);
+    font-size: 2vw;
     vertical-align: middle;
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.5s ease-in-out;
 }
 
 .socialLink1
@@ -98,23 +97,23 @@
     border-radius: 10px;
     background-color: #f6f9fc;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
-    width: 10vh;
-    height: 10vh;
+    width: 6vw;
+    height: 6vw;
     transition: width 0.5s ease-in-out;
 }
 
 .socialLink1:hover
 {
-    width: 50vh;
+    width: 30vw;
     transition: width 0.5s ease-in-out;
 }
 
 .bottomInfoText
 {
     position: relative;
-    color: #f6f9fc;
+    color: var(--deep-koamaru);
     font-family: "Nunito";
-    font-size: 0.5cm;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -125,8 +124,24 @@
 
 .socialLink:hover
 {
-    width: 30vh;
+    width: 20vw;
     transition: width 0.5s ease-in-out;
+}
+
+.socialLink:hover .social_text
+{
+    color: var(--deep-koamaru);
+    transition: color 0.5s ease-in-out;
+}
+
+.socialLink1:hover .social_text
+{
+    color: var(--deep-koamaru);
+    transition: color 0.5s ease-in-out;
+}
+
+.contactSeparator {
+    transform: translateY(-10px);
 }
 
 @media screen and (max-width: 1080px) {
@@ -171,5 +186,10 @@
     .social_text
     {
         color: rgba(0, 0, 0, 0);
+    }
+
+    .workDivContent
+    {
+        transform: translateY(-24vh);
     }
 }
