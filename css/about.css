@@ -22,7 +22,7 @@
     text-align: center;
     padding: 20px;
     font-family: "Nunito";
-    font-size: 1.7cm;
+    font-size: 5.1vw;
     color: var(--deep-koamaru);
 }
 
@@ -31,7 +31,7 @@
     margin: auto;
     height: 55vh;
     width: 90vw;
-    background-color: var(--jordy-blue);
+    background-color: rgba(0, 0, 0, 0);
     transform: translateY(-10%);
 }
 

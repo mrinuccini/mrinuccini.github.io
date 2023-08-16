@@ -22,7 +22,7 @@
 {
     text-align: center;
     font-family: "Nunito";
-    font-size: 1.7cm;
+    font-size: 5.1vw;
     color: var(--jordy-blue);
 }
 
@@ -61,7 +61,7 @@
     height: 20vh;
     width: 40vw;
     float: right;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .projectDescText
@@ -74,7 +74,7 @@
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--space-cadet);
+    color: var(--ucla-blue);
 }
 
 .projectTitle
@@ -124,6 +124,11 @@
     transform: translateX(-10px);
     height: 3vh;
     width: 3vh;
+}
+
+.hueGreen
+{
+    filter: invert(51%) sepia(82%) saturate(479%) hue-rotate(87deg) brightness(107%) contrast(103%);
 }
 
 #previewVid
@@ -268,8 +273,9 @@
 {
     .projectDescDiv
     {      
-        background-color: var(--ucla-blue);
-        transform: translate(-10%, -50%);
+        background-color: var(--space-cadet);
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+        transform: translate(1%, -50%);
     }
 
     .projectPreviewImg

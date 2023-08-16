@@ -35,14 +35,14 @@ html
 
 .hi
 {
-    font-size: 0.65cm;
+    font-size: 1.95vw;
     color: var(--blue-jeans);
     font-family: "Nunito" ;
 }
 
 .name
 {
-    font-size: 1.5cm;
+    font-size: 4.5vw;
     color: var(--jordy-blue);
     font-family: "Nunito";
     display: inline;
@@ -50,7 +50,7 @@ html
 
 .home_desc
 {
-    font-size: 1.5cm;
+    font-size: 4.5vw;
     font-family: "Nunito";
     color: rgba(128, 193, 243, 0.75);
 }
@@ -58,20 +58,20 @@ html
 .home_info
 {
     line-height: 1;
-    font-size: 0.5cm;
+    font-size: 1.5vw;
     font-family: "Nunito";
     color: rgba(128, 193, 243, 0.5);
 }
 
 .home_learnMoreButton
 {
-    height: 60px;
-    width: 256px;
+    height: 10vh;
+    width: 20vw;
 
-    font-size: 0.75cm;
+    font-size: 3vw;
     color: var(--blue-jeans);
     background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid var(--blue-jeans);
+    border: 0.25vw solid var(--blue-jeans);
     border-radius: 5px;
 
     transition: background-color 250ms linear;
@@ -87,7 +87,7 @@ html
 .navbar
 {
     width: 100vw;
-    height: 6vh;
+    height: 10vh;
     position: absolute;
     top: 0;
 }
@@ -104,16 +104,16 @@ html
 .linkList
 {
     float: right;
-    margin-right: 50px;
+    margin-right: 3vw;
     list-style: none;
 }
 
 .linkList li
 {
     display: inline;
-    margin-left: 50px;
+    margin-left: 3vw;
     font-family: "Nunito";
-    font-size: 0.5cm;
+    font-size: 1.5vw;
     color: white;
 
     transition: color 100ms linear;
@@ -137,18 +137,14 @@ html
 
 .navbar_button
 {
-    height: 30px;
-    width: 128px;
+    height: 5vh;
+    width: 10vw;
 
-    font-size: 0.5cm;
+    font-size: 1.5vw;
     color: var(--blue-jeans);
     background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid var(--blue-jeans);
+    border: 0.15vw solid var(--blue-jeans);
     border-radius: 5px;
-    text-align: center;    
-    padding-right: 0;
-    padding-left: 0;
-
 
     transition: all 250ms linear;
 }
@@ -168,7 +164,7 @@ button:hover:after {
 
 .navbar_button:after
 {
-  content: '→';
+  content: '↓';
   position: relative;
   opacity: 0;  
   right: -10px;
@@ -240,6 +236,13 @@ button:hover:after {
         width: 400px;
         height: 70px;
         font-size: 1.125cm;
+    }
+
+    .navbar_button
+    {
+        width: 200px;
+        height: 35px;
+        font-size: 0.8cm;
     }
 
     .linkList li
