@@ -10,39 +10,44 @@
 
 .workDiv
 {
+    overflow-y: hidden;
     height: 150vh;
     width: 100vw;
     background-color: var(--deep-koamaru);
+    position: relative;
 }
 
-.workSeparator {
-    position: relative;
-    top: 0;
+.custom-shape-divider-top-1697379535 {
+    position: absolute;
+    top: 0px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
 
-.workSeparator svg {
+.custom-shape-divider-top-1697379535 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 66px;
+    height: 95px;
 }
 
-.workSeparator .shape-fill {
-    fill: #F6F9FC;
+.custom-shape-divider-top-1697379535 .shape-fill {
+    fill: #f6f9fc;
 }
 
-.workSeparator {
-    transform: translateY(-10px);
+@media screen and (min-width: 1081px) {
+    .custom-shape-divider-top-1697379535
+    {
+        transform: translateY(-7vh);
+    }
 }
 
 @media screen and (max-width: 1080px) {
-    .workSeparator
+    .custom-shape-divider-top-1697379535
     {
-        transform: translateY(-5px);
+        transform: translateY(-13px);
     }
 
     .workDescText
@@ -52,13 +57,13 @@
 
     .workDate
     {
-        color: var(--deep-koamaru);
+        color: var(--ucla-blue);
         font-size: 1cm;
     }
 
     .workTitle
     {
-        color: var(--blue-jeans);
+        color: var(--deep-koamaru);
         font-size: 2cm;
     }
 

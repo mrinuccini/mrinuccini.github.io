@@ -37,10 +37,6 @@
 
 .projectPreview
 {
-    transform: translateY(12.5%);
-    height: 40vh;
-    width: 35vw;
-    float: left;
     border-radius: 5%;
 }
 
@@ -162,7 +158,8 @@
 {
     .projectContainer
     {
-        margin-top: 0vh;
+        margin-top: 3vh;
+        transform: translateY(15%);
     }
 
     .projectSectionHeader
@@ -197,8 +194,8 @@
         width: 75vw;
         top: 0%;
         border-radius: 5%;
-        transform: translateY(-87.5%);
-        background-color: rgba(84, 105, 158, 0.8);
+        transform: translateY(-100%);
+        background-color: rgba(84, 105, 158, 0.6);
     }
 
     .projectDate
@@ -227,29 +224,9 @@
         bottom: 5vh;
     }
 
-    .test
-    {
-        transform: translateY(-47vh);
-    }
-
-    .test1
-    {
-        transform: translateY(-94vh);
-    }
-
-    .test2
-    {
-        transform: translateY(-140vh);
-    }
-
-    .test3
-    {
-        transform: translateY(-186vh);
-    }
-
     .projectDiv
     {
-        height: 286vh;
+        height: 290vh;
     }
 
     #previewVid
@@ -286,5 +263,22 @@
     .projectPreviewImg
     {
         transform: translateX(-1000vw);
+    }
+
+    .projectPreview
+    {
+        transform: translateY(12.5%);
+        height: 40vh;
+        width: 35vw;
+        float: left;
+    }
+
+    .projectText
+    {
+        top: 50%;
+        transform: translateY(-50%);
+        height: 40vh;
+        width: 40vw;
+        float: right;
     }
 }

@@ -92,7 +92,7 @@
 
     .skillTypeTitle
     {
-        transform: translateY(-165vh);
+        transform: translateY(-27vh);
         position: relative;
         font-size: 1.5cm;
     }
@@ -106,7 +106,7 @@
     .skillContainer
     {
         width: 95vw;
-        transform: translateY(-165vh);
+        transform: translateY(-27vh);
         position: relative;
         right: 0;
         left: 0;
