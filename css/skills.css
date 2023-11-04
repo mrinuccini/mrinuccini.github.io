@@ -10,10 +10,35 @@
 
 .skillDiv
 {
+    overflow-y: hidden;
+    position: relative;
     width: 100vw;
     height: 185vh;
     background-color: #f6f9fc;
 }
+
+
+.custom-shape-divider-top-1697628222 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1697628222 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 58px;
+    transform: rotateY(180deg), translateX(-2px);
+}
+
+.custom-shape-divider-top-1697628222 .shape-fill {
+    fill: var(--deep-koamaru);
+}
+
 
 .skillSectionHeader
 {
@@ -87,12 +112,11 @@
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
-        position: absolute;
+        position: relative;
     }
 
     .skillTypeTitle
     {
-        transform: translateY(-27vh);
         position: relative;
         font-size: 1.5cm;
     }
@@ -106,12 +130,7 @@
     .skillContainer
     {
         width: 95vw;
-        transform: translateY(-27vh);
-        position: relative;
-        right: 0;
-        left: 0;
-        margin-left: auto;
-        margin-right: auto;
+        transform: translateX(-51%);
     }
 
     .skillName

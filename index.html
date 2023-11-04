@@ -21,7 +21,7 @@
         <link rel="icon" href="FAVICON.ico">
 
         <meta charset="utf-8">
-        <title>Matthias Rinuccini</title>
+        <title>Matthias Rinuccini | Portfolio</title>
     </head>
 
     <body>
@@ -52,11 +52,11 @@
             <div class="navbar">
                 <div class="menu">
                     <ul class="linkList">
-                        <li onclick="location.href = '#homeDiv';">Home</li>
-                        <li onclick="location.href = '#aboutDiv';">About</li>
-                        <li onclick="location.href = '#projectDiv';">Projects</li>
-                        <li onclick="location.href = '#skillDiv';">Skills</li>
-                        <li onclick="location.href = '#workDiv';">Experience</li>
+                        <li><a href="#homeDiv">Home</a></li>
+                        <li><a href="#aboutDiv">About</a></li>
+                        <li><a href="#projectDiv">Projects</a></li>
+                        <li><a href="#skillDiv">Skills</a></li>
+                        <li><a href="#workDiv">Experience</a></li>
 
                         <li></li>
 
@@ -64,18 +64,11 @@
                     </ul>
                 </div>
 
-                <img class="navbarImg" src="assets/squidydev.jpeg">
+                <img class="navbarImg" src="assets/squidydev_icon.png">
             </div>
-
-            <!-- Will be added later
-            <div class="socialLinkInnerDiv">
-                <img alt="Github Logo" src="assets/Icons/GitHub.svg" class="socialHomeLink" onclick="location.href='https://github.com/mrinuccini/';">
-                <img alt="Instagram Logo" src="assets/Icons/Instagram_simple.png" class="socialHomeLink" onclick="location.href='https://www.instagram.com/mrinuccini/';">
-            </div>
-            -->
 
             <div class="innerHomeDiv">
-                <p class="hi">Hi, my name is</p> 
+                <p class="hi">Hi, my name is</p>
                 <h1 class="name">Matthias Rinuccini.</h1>
                 <h1 class="home_desc">I'm a software developper.</h1>
                 <p class="home_info">I'm a 16 years old french developper.<br>Currently in high school, I'm open to any opportunity.</p>
@@ -248,7 +241,13 @@
         </div>
 
         <div class="skillDiv" id="skillDiv">
-            <h1 class="skillSectionHeader"> My skills </h1>
+            <div class="custom-shape-divider-top-1697628222">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <h1 class="skillSectionHeader">My skills</h1>
 
             <h2 class="skillTypeTitle">Software Developpement</h2>
 
@@ -309,6 +308,16 @@
                     <img alt="SQL Icon" src="assets/Skills/Sql.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/SQL';">
                     <p class="skillName">SQL</p>
                 </div>
+
+                <div class="skill">
+                    <img alt="SQL Icon" src="assets/Skills/Python.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/Python_(programming_language)';">
+                    <p class="skillName">Python</p>
+                </div>
+                
+                <div class="skill">
+                    <img alt="SQL Icon" src="assets/Skills/Flask.svg" class="skillIcon" onclick="location.href='https://en.wikipedia.org/wiki/Flask_(web_framework)';">
+                    <p class="skillName">Flask</p>
+                </div>
             </div>
 
             <h2 class="skillTypeTitle">Spoken Languages</h2>
@@ -350,7 +359,7 @@
             <br>
             <br>
 
-            <div class="projectContainer">
+            <div class="projectContainer workProjectContainer">
                 <div class="projectPreview">
                     <a href="https://eu.cwdsellier.com/gb/" target="_blank">
                         <img id="previewVid" src="assets/Work/CWD.jpg">
@@ -368,7 +377,7 @@
                 </div>
             </div>
 
-            <div class="projectContainer">
+            <div class="projectContainer workProjectContainer">
                 <div class="projectPreview">
                     <a href="https://training.arioneo.com/fr/accueil/" target="_blank">
                         <img id="previewVid" src="assets/Work/Arioneo.png">

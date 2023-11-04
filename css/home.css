@@ -13,6 +13,7 @@ html, body
     overflow-x: hidden;
     background-color: var(--space-cadet);
     scroll-behavior: smooth;
+    margin: 0px;
 }
 
 .homeDiv
@@ -108,10 +109,10 @@ html, body
     list-style: none;
 }
 
-.linkList li
+.linkList a, li
 {
     display: inline;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
     font-family: "Nunito";
     font-size: 1.5vw;
     color: white;
@@ -119,7 +120,12 @@ html, body
     transition: color 100ms linear;
 }
 
-.linkList li:hover
+.linkList a
+{
+    text-decoration: none;
+}
+
+.linkList a:hover
 {
     color: var(--jordy-blue);
 
@@ -128,11 +134,10 @@ html, body
 
 .navbarImg
 {
-    float: left;
+    border-radius: 100%;
+    margin-left: 1vw;
     width: 6vh;
     height: 6vh;
-    border-radius: 100%;
-    margin-top: 5px;
 }
 
 .navbar_button
@@ -201,7 +206,7 @@ button:hover:after {
 
     .innerHomeDiv
     {
-        margin-top: 10vh;
+        margin-top: 0vh;
         margin-left: 20px;
         width: 100vw;
     }
@@ -209,33 +214,28 @@ button:hover:after {
     .hi
     {
         margin-top: 20px;
-        font-size: 1cm;
+        font-size: 1.5cm;
     }
 
-    .name
+    .name, .home_desc
     {
         margin-top: 20px;
-        font-size: 2.3cm;
-    }
-
-    .home_desc
-    {
-        margin-top: 20px;
-        font-size: 2.3cm;
+        font-size: 3cm;
+        line-height: 3cm;
     }
 
     .home_info
     {
         margin-top: 20px;
-        font-size: 0.9cm;
+        font-size: 1.6875cm;
     }
 
     .home_learnMoreButton
     {
         margin-top: 20px;
-        width: 400px;
-        height: 70px;
-        font-size: 1.125cm;
+        width: 500px;
+        height: 90px;
+        font-size: 1.6875cm;
     }
 
     .navbar_button

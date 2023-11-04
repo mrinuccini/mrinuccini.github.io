@@ -37,19 +37,7 @@
     fill: #f6f9fc;
 }
 
-@media screen and (min-width: 1081px) {
-    .custom-shape-divider-top-1697379535
-    {
-        transform: translateY(-7vh);
-    }
-}
-
 @media screen and (max-width: 1080px) {
-    .custom-shape-divider-top-1697379535
-    {
-        transform: translateY(-13px);
-    }
-
     .workDescText
     {
         font-size: 1.3cm;
@@ -76,5 +64,10 @@
     .workDiv
     {
         height: 120vh;
+    }
+
+    .workProjectContainer
+    {
+        transform: translateY(-10%);
     }
 }
