@@ -13,7 +13,6 @@
 .projectDiv
 {
     width: 100vw;
-    height: 300vh;
     background-color: var(--deep-koamaru);
     overflow-y: hidden;
 }
@@ -155,6 +154,11 @@
     fill: #80C1F3;
 }
 
+#CineGraphDesc
+{
+    font-size: 1.5vw;
+}
+
 @media screen and (max-width: 1080px)
 {
     .projectContainer
@@ -219,6 +223,11 @@
         color: #f6f9fc;
     }
 
+    #CineGraphDesc
+    {
+        font-size: 1.1cm;
+    }
+
     .projectLangs
     {
         font-size: 4vw;
@@ -227,7 +236,7 @@
 
     .projectDiv
     {
-        height: 290vh;
+        height: 345vh;
     }
 
     #previewVid

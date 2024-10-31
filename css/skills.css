@@ -115,6 +115,11 @@
         position: relative;
     }
 
+    .skillIcon{
+        width: 10vh;
+        height: 10vh;
+    }
+
     .skillTypeTitle
     {
         position: relative;
@@ -136,6 +141,7 @@
     .skillName
     {
         font-size: 0.75cm;
+        transform: translate(-10%);
     }
 
     .skillDiv

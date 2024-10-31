@@ -1,8 +1,5 @@
 ~~~
-Website by SquidyDev :)
+Website by Matthias :)
 
 Index.html
-Contact.html
-About.html
-Project.html
 ~~~
